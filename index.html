@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>RevoU SQL Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<h1><strong>RevoU SQL Project</strong>
+				</div>
+				<div class="inner">
+					<a href="https://andikapp.github.io/andika_gumilang_portfolio/" class="button small">Home</a>
+					<a href="https://andikapp.github.io/andika_gumilang_portfolio/projects.html" class="button small">Projects</a>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1><Strong>RevoU SQL Project</Strong></h1>
+						</header>
+						<br>
+						<div class="row gtr-50 gtr-uniform">
+								<div class="col-5"><span class="image fit"><img src="images/sql_assignment_cover.png"></span></div>
+							</div><br>
+						<h2><strong>Project Summary</strong></h2>
+						<p>Improving the Understanding of SQL function to help access, read, manipulate, and analyze the data stored in the database and generate useful insights to drive an informed decision-making process, and this 3 main things that I did in this project :</p>
+						<ol>
+							<li>Created SQL query based using aggregate functions, date format, joins, CTE, and window function.</li>
+							<li>Created monthly retention cohort analysis using SQL function</li>
+							<li>Created the insights for the project </li>
+					  	</ol>
+						<br>
+
+						<h2><strong>Project Background & Dataset</strong></h2>
+						<h3>Project Background</h3>
+							<p>Explore and get the hands on Structured Query Language (SQL) specially using Google Big Query, As a data analyst, we are expected to use SQL to formating and cleaning the data, joining the data, using CTE and Window function also generating useful insights from the data. Therefore, we tested our level of comprehension by doing the following assignment.</p>
+					</section>
+						<h3>Dataset 1 | <a href="https://console.cloud.google.com/marketplace/product/san-francisco-public-data/sf-bike-share?project=intermediate-340615">San Fransisco Ford GoBike Dataset</a></h3>
+							<p>This dataset was provided by google bigquery public data in google cloud platform. San Francisco Ford GoBike ,managed by Motivate, provides the Bay Area’s bike share system. Bike share is a convenient, healthy, affordable, and fun form of transportation. It involves a fleet of specially designed bikes that are locked into a network of docking stations. Bikes can be unlocked from one station and returned to any other station in the system. People use bike share to commute to work or school, run errands, get to appointments, and more. The dataset contains trip data from 2013-2018, including start time, end time, start station, end station, and latitude/longitude for each station.</p>
+						<h3>Dataset 2 | <a href="https://console.cloud.google.com/marketplace/product/y-combinator/hacker-news?project=secret-tempest-327803">Hacker News Dataset</a></h3>
+							<p>This dataset was provided by google bigquery public data in google cloud platform. This dataset contains all stories and comments from Hacker News from its launch in 2006 to present. Each story contains a story ID, the author that made the post, when it was written, and the number of points the story received. This public dataset is hosted in Google BigQuery and is included in BigQuery's 1TB/mo of free tier processing. This means that each user receives 1TB of free BigQuery processing every month, which can be used to run queries on this public dataset. Watch this short video to learn how to get started quickly using BigQuery to access public datasets</p>
+						
+						<p><h2>Project Files</h2></p>
+						For a more comprehensive analysis and visualization, please open the project files.
+						<ul>
+							<li><a href="https://docs.google.com/presentation/d/1TMh66YgJSBhrdTk6yBLrtYmSO8nNNk87XSRl_tGHJ3A/edit#slide=id.gf199684abe_0_79">Presentation Deck</a></li>
+							<li><a href="https://console.cloud.google.com/bigquery?sq=846791540182:ae10efc2fca04689adb5d2f63af7861a">Query Code - Google BigQuery</a></li>
+							<li><a href="">Github Repository</a></li>
+						</ul>
+					</section>
+
+				<!-- Four -->
+				<section id="four">
+					<h3><strong>Dataset 1</strong></h3>
+
+						<p><b>1. Create a query to get the average amount of duration (in minutes) per month during 2014-2017</b></p>
+						<script src="https://pastebin.com/embed_js/60CuHLXR?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/SQL question 1.JPG"></span></div>
+						</div>
+						<p><br>in 2014-2017 July is the month with the longest duration average of Sanfransico bike rental with 19.94 minutes, followed by August with 18.85 minutes and September with 18.12 minutes.</p>
+
+						<p><b>2. Create a query to get total trips and total number of unique bikes grouped by region name during 2014-2017</b></p>
+						<script src="https://pastebin.com/embed_js/BR8AUpCB?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/SQL question 2.JPG"></span></div>
+						</div>
+						<p><br>in 2014-2017 San Francisco has the most total trips and bikes, followed by Oakland, and finally San Jose.</p>
+
+						<p><b>3.Assume this year is 2022, Find the youngest and oldest age of the members, for each gender. </b></p>
+						<script src="https://pastebin.com/embed_js/W4HtVw52?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/SQL question 3.JPG"></span></div>
+						</div>
+						<p><br>The oldest age of Male is 136 years and the youngest age of Male is 22 years.<br>The oldest age of Female is 122 years and the youngest age of Female is 22 years.<br>The oldest age of Others is 122 years and the youngest age of Other is 22 years.</p>
+
+						<p><b>4. Get the latest departure trip in each region.</b></p>
+						<script src="https://pastebin.com/embed_js/8HwDKXUX?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-8"><span class="image fit"><img src="images/SQL question 4.JPG"></span></div>
+						</div>
+						<p>The last recorded departure trip form all the region</p>
+
+						<p><b>5. Create a query to get Month to Date of total trips in each region, breakdown by date during November 2017 - December 2017.</b></p>
+						<script src="https://pastebin.com/embed_js/uiUz81Ek?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-4"><span class="image fit"><img src="images/SQL question 5.JPG"></span></div>
+						</div><br>
+						<p>Total trips cumulative each region using Window Function</p>
+
+						<p><b>6. Find monthly growth of trips in percentage, ordered by time descendingly. Only for trips from the region that has the highest total number of trips and during 2014-2017.</b></p>
+						<script src="https://pastebin.com/embed_js/xqPkLwS9?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/SQL question 6.JPG"></span></div>
+						</div><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/SQL question 6PLUS.JPG"></span></div>
+						</div><br>
+						<p>July 2017 was the month with the highest growth percentage of 1311% and June 2017 was the month with the lowest growth percentage of -91%.</p>
+
+						<h3><strong>Dataset 2</strong></h3>
+						<p><b>7. Given another dataset (Hacker News) please use table “stories” to create monthly retention cohorts (the groups, or cohorts, can be defined based upon the date that a user/author started a story) and then how many of them (%) coming back for the following monts in 2014. After analyzing the retention cohort, is there any interesting insight that we can get?</b></p>
+						<script src="https://pastebin.com/embed_js/1nx334XU?theme=dark"></script><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-5"><span class="image fit"><img src="images/SQL question 7.JPG"></span></div>
+						</div><br>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-8"><span class="image fit"><img src="images/SQL question 7PLUS.JPG"></span></div>
+						</div><br>
+						<p>By the Graph above we can clearly see the average activity dropped 85,5% for 0 to 1 month users age,  there is a tendency that users don't create stories for the second time. So probably there’s the problem with bad first impression user experience</p>
+				</section>
+
+					<br>
+				
+					<a href="https://andikapp.github.io/andika_gumilang_portfolio/" class="button small">Home</a>
+					<a href="https://andikapp.github.io/andika_gumilang_portfolio/projects.html" class="button small">Projects</a>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/andika-gumilang-6aa09b113/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/pgandika" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:andikapg19@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Andika Putra G</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
